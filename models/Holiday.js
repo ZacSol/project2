@@ -1,0 +1,21 @@
+module.exports=function(sequelize,DataTypes){
+    const Holiday=sequelize.define("Holidays",{
+        date:{
+            type:DataTypes.DATE
+        },
+        start:{
+            type:DataTypes.DATE
+        },
+        end:{
+            type:DataTypes.DATE        
+        },
+        name:{
+            type:DataTypes.STRING
+        },
+        type:{
+            type:DataTypes.STRING
+        }
+    },
+    {timestamps:false}
+    );
+}

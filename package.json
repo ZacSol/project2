@@ -1,0 +1,27 @@
+{
+  "name": "project2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZacSol/project2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZacSol/project2/issues"
+  },
+  "homepage": "https://github.com/ZacSol/project2#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "googleapis": "^27.0.0",
+    "mysql2": "^1.6.1",
+    "node-holidayapi": "^1.0.2",
+    "request": "^2.88.0"
+  }
+}
